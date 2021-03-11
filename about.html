@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Dominique Tracy | About Me</title>
+  </head>
+  <body>
+
+<!-- NAVBAR  -->
+    <div class="main-container about">
+      <div class="navbar">
+        <img src="images/logoo.png" alt="" class="logo">
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="">Home</a></li>
+            <li><a href="">About Me</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact Me!</a></li>
+          </ul>
+        </nav>
+        <img src="images/menu-icon.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="https://images.pexels.com/photos/1317712/pexels-photo-1317712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="400px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><<strong>Dominique,</strong>24</h5>
+        <small><img src="images/locationicon.png" alt="">15 miles away</small>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JS FOR MENU -->
+    <script type="text/javascript">
+      let MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px")
+              {
+                MenuItems.style.maxHeight = "200px"
+              }
+        else
+              {
+                MenuItems.style.maxHeight = "0px"
+              }
+             }
+          </script>
+
+  </body>
+</html>
